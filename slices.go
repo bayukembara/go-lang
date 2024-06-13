@@ -15,4 +15,7 @@ func main() {
 	fmt.Println(slice2)
 	fmt.Println(slice3)
 	fmt.Println(slice4)
+	fmt.Println(len(slice1))
+	fmt.Println(cap(slice2))
+	fmt.Println(append(slice1,slice2...))
 }
